@@ -1,0 +1,140 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+   background-color:rgb(250, 231, 170);
+  
+}
+
+.nav-bg{
+    background-color: #6ba8cc;
+    color: black;
+    
+}
+header{
+    background-color: rgb(250, 175, 156);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+    
+.flex-Box{
+    display: flex;
+    align-items: center;
+    
+    
+    
+}
+p{
+   font-size: 24px; 
+    
+}
+h4{
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    font-weight: 600;
+    font-size: 27px;
+}
+h3{
+    padding: 10px;
+    font-size: 35px;
+    margin-bottom: 0px;
+    
+}
+header{
+    height: 150px;
+    width: 100%;
+}
+.h5{
+    background-color: black;
+}
+h5{
+    font-weight: 600;
+    
+    color: white;
+   
+    text-align: center;
+    padding: 14px;
+    margin: 8px;
+    font-size: 28px;
+}
+.cont{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    overflow: hidden;
+    margin: auto;
+    height: 100%;
+}
+
+.first, .Second, .Third{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: black;
+    border: 1px solid rgb(243, 241, 241);
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(243, 241, 241);
+   
+}
+.form-section{
+
+    display: flex;
+    align-items: center;
+    min-height: 50vh;
+  
+}
+
+form input{
+    margin: 10px;
+}
+form{
+    background-color: rgba(12, 2, 12, 0.53);
+    padding: 70px;
+    margin: 10px;
+    width: 100%;
+    
+}
+input{
+    background-color: none;
+    
+    width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(189, 177, 177);
+  
+  border-radius: 23px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+label{
+    padding: 5px;
+    color: white;
+    font-weight: 400;
+    font-size: 19px;
+    margin: 3px;
+}
+select{
+    border: none;
+    padding: 6px;
+    margin: 10px;
+}
+
+
+@media only screen and (min-width: 62.5rem){
+    .cont{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: repeat(2 , auto);
+    }
+
+    .first{
+        grid-column:1 / 3;
+    }
+        
+}
+
